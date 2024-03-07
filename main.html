@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fav icon -->
+    <link rel="icon" href="./assets/images/logo.svg">
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Tailwind Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css file -->
+    <link rel="stylesheet" href="./styles/output.css" />
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Leksika.uz</title>
+</head>
+
+<body class="bg-[#F1F4F6]">
+    <!----------------------- Header start ----------------------->
+    <header class="bg-[#01756C]">
+
+        <div class="container px-4 mx-auto">
+            <nav class="mb-[60px]">
+                <ul class="flex justify-between items-center py-[20px] text-[18px] text-white cursor-pointer">
+                    <li>
+                        <img src="./assets/images/logoMain.svg" alt="logo">
+                    </li>
+
+                    <li class="flex gap-[7px] items-center">
+                        <p>ENG</p>
+                        <i class="bi bi-arrow-left-right"></i>
+                        <p>UZB</p>
+                    </li>
+
+                    <li class="flex gap-[7px] items-center">
+                        <p>RUS</p>
+                        <i class="bi bi-arrow-left-right"></i>
+                        <p>UZB</p>
+                    </li>
+
+                    <li>Articles</li>
+                    <li>Grammar</li>
+                    <li>About us</li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <!----------------------- Header end ----------------------->
+
+
+    <!----------------------- Main start ----------------------->
+    <main class="min-h-screen">
+        <section>
+            <div class="container px-4 mx-auto">
+
+                <div class="w-[850px] flex items-center gap-[26px] p-[5px] bg-white rounded-[100px] mx-auto mb-[70px]">
+                    <div
+                        class="flex gap-[7px] items-center bg-[#01756C] py-[18px] px-[36px] rounded-[100px] text-white cursor-pointer">
+                        <p>ENG</p>
+                        <i class="bi bi-arrow-left-right text-sm"></i>
+                        <p>UZB</p>
+                    </div>
+                    <div class="flex gap-[13px]">
+                        <i class="bi bi-search text-xl text-[#AAAAAA]"></i>
+
+                        <input id="inputSearch" type="search" placeholder="Search words here..."
+                            class="outline-none focus:outline-none w-[600px]">
+                    </div>
+                </div>
+
+
+
+                <div class="card__wrapper py-[18px] px-[32px] rounded-[18px] bg-white w-[846px] mx-auto mb-[100px]">
+
+                    <div class="not-found">
+                        <div
+                            class="bg-[url(./assets/images/ellipse.svg)] bg-center bg-no-repeat mx-auto w-[606px] h-[150px] items-center">
+                            <p class="text-[26px] text-center relative top-[45px] w-[550px] left-6 leading-[36px]">
+                                Search any
+                                words, and we found this word defination, translation and etc.</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="py-[18px] px-[32px] rounded-[18px] bg-white w-[846px] mx-auto">
+                             <h1 class="font-semibold text-[32px] mb-[12px]">hello</h1>
+                             <p class="italic text-[#8C8B8B] mb-[12px]">exclamation, noun</p>
+                             <div class="flex gap-[5px] mb-[0px] items-center">
+                                 <i class="bi bi-volume-down text-2xl"></i>
+                                 <p class="text-[18px] text-[#8C8B8B]">/həˈloʊ/</p>
+                             </div>
+                    
+                              <div>
+                                  <p>salom!</p>
+                                  <p><strong>hello girl</strong> esk telefonistchi qiz</p>
+                              </div>
+                          </div> -->
+                </div>
+
+
+                <!-- <div class="flex items-center gap-[45px] mx-auto">
+                    <img src="./assets/images/error-image.png" alt="error-image">
+                    <div class="w-[530px] bg-[url(./assets/images/ellipse.svg)] bg-center bg-no-repeat ">
+                        <h1 class="text-[26px] mb-[20px] font-semibold text-center">Oops, no such word found!</h1>
+                        <p class="text-[18px] text-center w-[500px]">
+                            If you believe there is such a word in the language of Shakespeare, please take a few
+                            seconds to report it via <span class="text-[#01756C] text-[18px] font-medium underline">Telegram</span>
+                            or <span class="text-[#01756C] text-[18px] font-medium underline">Gmail</span> and we will add it
+                            asap!
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+    <!----------------------- Main end ----------------------->
+
+
+    <!------------------------- Footer start ------------------------->
+    <footer class="bg-[#01756C]">
+        <div class="container px-4 mx-auto">
+            <div class="flex justify-between py-[40px] text-white">
+                <p class="text-[18px]">Leksika.uz - 2022-2023</p>
+
+                <div class="flex gap-[25px]">
+                    <i class="bi bi-telegram cursor-pointer"></i>
+                    <i class="bi bi-instagram cursor-pointer"></i>
+                    <i class="bi bi-facebook cursor-pointer"></i>
+                    <i class="bi bi-youtube cursor-pointer"></i>
+                    <i class="bi bi-twitter cursor-pointer"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!------------------------- Footer start ------------------------->
+
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
