@@ -30,7 +30,7 @@ function renderData(data) {
           ? `<audio src="${phonetic.audio}" controls></audio>`
           : "";
         return `
-        <div class="flex gap-[5px] mb-[0px] items-center">
+        <div class="flex gap-[10px] mb-[15px] items-center">
           ${audioElement}
           <p class="text-[18px] text-[#8C8B8B]">${phonetic.text}</p>
         </div>
@@ -48,14 +48,14 @@ function renderData(data) {
             <p>${el.meanings[0].definitions[0].definition}</p>
           </div>
 
-          <a href="${el.phonetics.sourceUrl}" class="py-[8px] px-[30px] bg-gray-400 text-white rounded-[10px] text-center">Read more</a>
+          <a href="${el.phonetics.sourceUrl}" class="py-[8px] px-[30px] bg-gray-400 text-white rounded-[10px] mb-[10px] text-center">Read more</a>
       `
     );
     cardWrapper.appendChild(card);
   });
 }
 
-// My code
+// some problem in my code
 // function renderData(data) {
 //   console.log(data);
 //   cardWrapper.innerHTML = "";
